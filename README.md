@@ -3,7 +3,6 @@
 This repository manages the editorial content of the Beyond API documentation referenced by Stoplight.
 The review process happens by means of pull requests, as usual.
 The content is then put into Stoplight.
-For the time being (9th January 2019), the content will be copied over manually by one member of the Tech Writing team.
 Once everything is set up, the texts will automatically be referenced by the respective Stoplight text blocks.
 
 Currently, the *markdown_stoplight* subdirectory in this repository holds the following files:
