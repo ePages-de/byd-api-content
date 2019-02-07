@@ -3,6 +3,40 @@
 This change log covers significant updates and changes to the Beyond
 REST API.
 
+**2019-01-15**
+
+**New**
+
+Allow user creation without specifying a password.
+
+Add new endpoint [Create variation product](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-create-with-variations).
+
+**Update**
+
+Add field `captureWorkflow` to payment method definitions.
+
+**2018-12-18**
+
+**Update**
+
+Add optional field `dependentLocality` to billing and shipping address properties.
+
+Add payment status for prepayment-style payments (e.g. OVERPAID, UNDERPAID). Allow passing the actual amount paid to the [Set payment status with amount endpoint](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payments/set-payment-status-with-amount) (first implementation step).
+
+**2018-11-20**
+
+**New**
+
+Add new endpoints to handle payment methods:
+* [Create a payment method from a payment method definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/create-payment-method)
+* [Delete a payment method from a payment method definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/delete-payment-method)
+
+**Update**
+
+Add field `paymentNote` to payments.
+
+[Create payment](http://docs.beyondshop.cloud/#_payment_flow) provides an `errorUri` to the payment app.
+
 **2018-11-12**
 
 Add new endpoint [Delete Shipping Address](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-remove-shipping-address).
@@ -27,7 +61,7 @@ Rework [Product Attribute Definitions](https://beyond-rest-api.docs.stoplight.io
 
 **New**
 
-Add four new endpoints to handle Payment Method Definitions:
+Add new endpoints to handle Payment Method Definitions:
 * [List Payment Method Definitions](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/list-payment-method-definition)
 * [Create Payment Method Definition](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/create-payment-method-definition)
 * [Get Payment Method Definition](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/get-payment-method-definition)
@@ -53,8 +87,7 @@ Change [shop resource's body](https://beyond-rest-api.docs.stoplight.io/beyond-r
 re-working its structure and content.
 
 Add [shop attributes
-resource](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create), which allow
-clients to store arbitrary information.
+resource](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create), which allow clients to store arbitrary information.
 
 Add [legal resource](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get).
 
@@ -68,11 +101,10 @@ attribute [manufacturerPrice](https://beyond-rest-api.docs.stoplight.io/beyond-r
 
 **Update**
 
-Change [cart details](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create) by adding
-*mustAcceptTermsAndConditions* property in the payload.
+Change [cart details](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create) by adding `mustAcceptTermsAndConditions` property in the payload.
 
 Change [Create order from cart](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order) endpoint by
-adding *termsAndConditionsExplicitlyAccepted* property in the payload.
+adding `termsAndConditionsExplicitlyAccepted` property in the payload.
 
 **2018-07-17**
 
@@ -107,8 +139,7 @@ rendering.
 
 **Update**
 
-Change [cart's payload](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-get) endpoint by adding
-*minimumOrderValue* property.
+Change [cart's payload](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-get) endpoint by adding `minimumOrderValue` property.
 
 **2018-04-10**
 
