@@ -1,7 +1,6 @@
 ### Change Log
 
-This change log covers significant updates and changes to the Beyond
-REST API.
+This change log covers significant updates and changes to the Beyond REST API.
 
 **2019-01-15**
 
@@ -86,8 +85,7 @@ Simplify [creation of product images](https://beyond.docs.stoplight.io/beyond-re
 Change [shop resource's body](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-get) by
 re-working its structure and content.
 
-Add [shop attributes
-resource](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create), which allow clients to store arbitrary information.
+Add [shop attributes resource](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create), which allows clients to store arbitrary information.
 
 Add [legal resource](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get).
 
@@ -103,8 +101,7 @@ attribute [manufacturerPrice](https://beyond.docs.stoplight.io/beyond-rest-api/a
 
 Change [cart details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create) by adding `mustAcceptTermsAndConditions` property in the payload.
 
-Change [Create order from cart](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order) endpoint by
-adding `termsAndConditionsExplicitlyAccepted` property in the payload.
+Change [Create order from cart](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order) endpoint by adding `termsAndConditionsExplicitlyAccepted` property in the payload.
 
 **2018-07-17**
 
@@ -128,8 +125,7 @@ endpoint.
 
 **Update**
 
-Change [Enable support access](#resources-enable-support-access)
-endpoint by removing user details from the response.
+Change [Enable support access](#resources-enable-support-access) endpoint by removing user details from the response.
 
 Change [List users](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) and [Show user
 details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/user-get) endpoints by removing support user
@@ -158,8 +154,7 @@ Enhance official apps to carry additional configuration data used for
 **New**
 
 Add [Enable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) and
-[Disable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) user
-endpoints.
+[Disable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) user endpoints.
 
 **2018-03-13**
 
