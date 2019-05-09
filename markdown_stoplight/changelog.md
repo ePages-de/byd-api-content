@@ -2,164 +2,236 @@
 
 This change log covers significant updates and changes to the Beyond REST API.
 
+**2019-05-09**
+
+**Update**
+
+* Added `productIdentifiers` property to [Show variation details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-get) and [Update variation partially](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-patch-json).
+
+* Added `workflow` property to [Show payment method details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-methods/payment-method-get).
+
+* Added query parameter `fileName` and header `Content-Type` to request parameters of [Add product image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create).
+
+* Added `bankName`, `iban`, `bic`, `bankAccount`, and `bankIdentifier` properties to *legal* resource.
+
+**2019-04-23**
+
+**New**
+
+Add *Events* section. This section explains how applications can receive information about customer actions in ePages online shops.
+
+**2019-04-17**
+
+**New**
+
+* [Create script tag](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/script-tags/script-tags-create)
+
+* [List script tags](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/script-tags/script-tags-get-all)
+
+* [Show script tag details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/script-tags/script-tags-get) 
+
+* [Update script tag](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/script-tags/script-tags-update)
+
+* [Delete script tag](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/script-tags/script-tags-delete)
+
+* [Create newsletter target](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/newsletter-target/newsletter-target-create)
+
+* [Show newsletter target details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/newsletter-target/newsletter-target-get)
+
+* [Update newsletter target](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/newsletter-target/newsletter-target-update)
+
+* [Delete newsletter target](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/newsletter-target/newsletter-target-delete)
+
+**2019-03-08**
+
+**Deprecate**
+
+* Removed endpoint *List products by category*.
+
+**2019-03-06**
+
+**Update**
+
+* Added `externalPaymentUri` and `externalPaymentId` to *Set a payment status*.
+
+**2019-02-28**
+
+**Update**
+
+* Added `externalPaymentUri` and `externalPaymentId` to [Show order details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-get).
+
+**2019-02-26**
+
+**Update**
+
+* Added `embeddedApprovalUri` to [Create payment](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create-payment) and [Create payment and order](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create-payment-and-order).
+
+**2019-02-22**
+
+**New**
+
+* [Show variation product details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-view/find-variation-product-by-id)
+
+* [Show variation details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-get)
+
 **2019-01-15**
 
 **New**
 
-Allow user creation without specifying a password.
+* We now allow user creation without specifying a password.
 
-Add new endpoint [Create variation product](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-create-with-variations).
+* [Create variation product](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-create-with-variations)
 
 **Update**
 
-Add field `captureWorkflow` to payment method definitions.
+* Added field `captureWorkflow` to payment method definitions.
 
 **2018-12-18**
 
 **Update**
 
-Add optional field `dependentLocality` to billing and shipping address properties.
+* Added optional field `dependentLocality` to billing and shipping address properties.
 
-Add payment status for prepayment-style payments (e.g. OVERPAID, UNDERPAID). Allow passing the actual amount paid to the [Set payment status with amount](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payments/set-payment-status-with-amount) endpoint (first implementation step).
+* Added payment status for prepayment-style payments (e.g. OVERPAID, UNDERPAID). Allow passing the actual amount paid to the [Set payment status with amount](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payments/set-payment-status-with-amount) endpoint (first implementation step).
 
 **2018-11-20**
 
 **New**
 
-Add new endpoints to handle payment methods:
 * [Create a payment method from a payment method definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/create-payment-method)
+
 * [Delete a payment method from a payment method definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/delete-payment-method)
 
 **Update**
 
-Add field `paymentNote` to payments.
+* Added  `paymentNote`  poperty to payments.
 
-[Create payment](http://docs.beyondshop.cloud/#_payment_flow) provides an `errorUri` to the payment app.
+* [Create payment](http://docs.beyondshop.cloud/#_payment_flow) provides an `errorUri` to the payment app.
 
 **2018-11-12**
 
-Add new endpoint [Delete Shipping Address](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-remove-shipping-address).
+**New**
+
+* [Delete Shipping Address](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-remove-shipping-address)
 
 **2018-11-07**
 
 **New**
 
-Add new endpoint [Delete Payment Method Definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/delete-payment-method-definition).
+* [Delete Payment Method Definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/delete-payment-method-definition)
 
 **Update**
 
-Include possibility to add a payment note upon [creation of a payment](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create-payment).
+* Included possibility to add a payment note upon [creation of a payment](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create-payment).
 
 **2018-10-30**
 
 **Update**
 
-Rework [Product Attribute Definitions](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-attribute-definitions/product-attribute-definitions-list) and [Product Attributes](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attributes-list) to reduce complexity by simplifying object structure.
+* Reworked [Product Attribute Definitions](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-attribute-definitions/product-attribute-definitions-list) and [Product Attributes](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attributes-list) to reduce complexity by simplifying object structure.
 
 **2018-10-29**
 
 **New**
 
-Add new endpoints to handle Payment Method Definitions:
 * [List Payment Method Definitions](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/list-payment-method-definition)
+
 * [Create Payment Method Definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/create-payment-method-definition)
+
 * [Get Payment Method Definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/get-payment-method-definition)
+
 * [Update Payment Method Definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-method-definitions/update-payment-method-definition)
 
 **2018-10-18**
 
 **Update**
 
-Change several paths on [payment signup](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-signup/merchant-account) to comply with a name change grom {paymentIntegration} to {paymentMethodDefinition}.
+* Changed several paths on [payment signup](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/payment-signup/merchant-account) to comply with a name change grom {paymentIntegration} to {paymentMethodDefinition}.
 
 **2018-09-11**
 
 **Update**
 
-Simplify [creation of product images](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create).
+* Simplify [creation of product images](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create).
 
 **2018-08-28**
 
 **New**
 
-Change [shop resource's body](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-get) by
-re-working its structure and content.
+* [Create shop attribute](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create)
 
-Add [shop attributes resource](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-attribute-create), which allows clients to store arbitrary information.
+* [Show legal details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get)
 
-Add [legal resource](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get).
+* [Open shop](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-open)
 
-Add [open](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-open) and
-[close](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-close) shop endpoints.
+* [Close shop](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-close)
 
-Add manufacturer suggested retail price, represented with the product
-attribute [manufacturerPrice](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get).
+* Added `manufacturerPrice` in the [product details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-view/product-view-find-by-id) payload.
+
+**Update**
+
+* Reworked structure and content of the [shop resource's body](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-shop-get).
+
 
 **2018-08-14**
 
 **Update**
 
-Change [cart details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create) by adding `mustAcceptTermsAndConditions` property in the payload.
+* Added `mustAcceptTermsAndConditions` property in the [cart details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create) payload.
 
-Change [Create order from cart](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order) endpoint by adding `termsAndConditionsExplicitlyAccepted` property in the payload.
+* Added `termsAndConditionsExplicitlyAccepted` property in the [Create order from cart](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order) payload.
 
 **2018-07-17**
 
 **New**
 
-Add [Change username](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/user-change-username) and [Trigger
-email address change](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/change-email-request) user endpoints.
+* [Change username](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/user-change-username) 
+* [Trigger email address change](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/change-email-request)
 
 **2018-06-19**
 
 **New**
 
-Add [Refund process support](https://beyond.docs.stoplight.io/payment-solution/payment-solution#refunds) for payment apps.
+* Added [Refund process support](http://docs.beyondshop.cloud/#_refunds) for payment apps.
 
 **2018-06-05**
 
 **New**
 
-Add [Retrieve support access status](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/support-access-status)
-endpoint.
+* [Retrieve support access status](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/support-access-status)
 
 **Update**
 
-Change [Enable support access](#resources-enable-support-access) endpoint by removing user details from the response.
+* Removed user details from the [Enable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) response.
 
-Change [List users](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) and [Show user
-details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/user-get) endpoints by removing support user
-rendering.
+* Removed support user rendering from [List users](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) and [Show user details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/user-get) endpoints.
 
 **2018-05-22**
 
 **Update**
 
-Change [cart's payload](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-get) endpoint by adding `minimumOrderValue` property.
+* Added `minimumOrderValue` property to [cart's payload](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-get).
 
 **2018-04-10**
 
 **New**
 
-Add [Replace single line item](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-replace-line-item)
-endpoint.
+* [Replace single line item](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-replace-line-item)
 
 **Update**
 
-Enhance official apps to carry additional configuration data used for
-[payment app creation](#resources-official-apps-create).
+* Enhanced official apps to carry additional configuration data used for payment app creation.
 
 **2018-03-29**
 
 **New**
 
-Add [Enable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) and
-[Disable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) user endpoints.
+* [Enable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access) 
+* [Disable support access](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/users/enable-support-access)
 
 **2018-03-13**
 
 **New**
 
-Implement Payment Gateway for [payment
-integrations](https://beyond.docs.stoplight.io/payment-solution/payment-solution).
+* Implemented Payment Gateway for [payment integrations](https://beyond.docs.stoplight.io/payment-solution/payment-solution).
 
