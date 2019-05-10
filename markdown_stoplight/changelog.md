@@ -18,7 +18,7 @@ This change log covers significant updates and changes to the Beyond REST API.
 
 **New**
 
-Add *Events* section. This section explains how applications can receive information about customer actions in ePages online shops.
+Added [Events](https://beyond.docs.stoplight.io/app-development/events) section. This section explains how applications can receive information about customer actions in ePages online shops.
 
 **2019-04-17**
 
@@ -46,7 +46,7 @@ Add *Events* section. This section explains how applications can receive informa
 
 **Deprecate**
 
-* Removed endpoint *List products by category*.
+* Removed endpoint *List products by category* (`GET /product-view/products/search/find-by-category`).
 
 **2019-03-06**
 
