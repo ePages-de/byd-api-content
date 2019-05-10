@@ -12,7 +12,7 @@ This change log covers significant updates and changes to the Beyond REST API.
 
 * Added query parameter `fileName` and header `Content-Type` to request parameters of [Add product image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create).
 
-* Added `bankName`, `iban`, `bic`, `bankAccount`, and `bankIdentifier` properties to [Show legal details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get) and [Update legal resource partially](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-jsonpatch) resources.
+* Added `bankName`, `iban`, `bic`, `bankAccount`, and `bankIdentifier` properties to [Show legal details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-get) and [Update legal resource partially](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-legal-jsonpatch).
 
 **2019-04-23**
 
