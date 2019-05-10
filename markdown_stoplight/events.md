@@ -124,7 +124,7 @@ updatedAt: "2018-04-17T14:48:29.000Z"
 url: "/jam"
 ```
 
-### Cart:add event
+#### Cart:add event
 
 In order to make use of this event, you need to add the following snippet to your code:
 
