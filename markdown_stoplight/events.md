@@ -18,35 +18,35 @@ These events are available:
 
 In order to make use of this event, you need to add the following snippet to your code:
 
-´´´ {.javascript}
+``` {.javascript}
 if (window.eComEventTarget) {
   window.eComEventTarget.addEventListener('pageview', function (event) {
     console.log('pageview url:', event.detail.url)
   })
 }
-´´´
+```
 
 You’ll receive something like this:
 
-´´´ {.bash}
+``` {.bash}
 pageview url: /about-us
-´´´
+```
 
 #### Product event
 
 In order to make use of this event, you need to add the following snippet to your code:
 
-´´´ {.javascript}
+``` {.javascript}
 if (window.eComEventTarget) {
   window.eComEventTarget.addEventListener('product', function (event) {
     console.log('product:', event.detail.product.toJS())
   })
 }
-´´´
+```
 
 You’ll receive something like this:
 
-´´´ {.bash}
+``` {.bash}
 availabilityText: "Available"
 available: true
 basePrice: {refQuantity: {…}, refPrice: {…}, formatted: "1 m³ = £0,12", quantity: {…}}
@@ -87,23 +87,23 @@ title: "Homemade Cherry Jam"
 variations: null
 vatNote: "components.productComponent.priceExclusiveVat"
 warnStock: false
-´´´
+```
 
 #### Category event
 
 In order to make use of this event, you need to add the following snippet to your code:
 
-´´´ {.javascript}
+``` {.javascript}
 if (window.eComEventTarget) {
   window.eComEventTarget.addEventListener('category', function (event) {
     console.log('category:', event.detail.category.toJS(), 'products:', event.detail.products.toJS())
   })
 }
-´´´
+```
 
 You'll receive something like this:
 
-´´´ {.bash}
+``` {.bash}
 categoryId: "5AD608E0-22C3-0009-F213-D5823AB36AC8"
 content: {id: "4e230bbd-2a8a-4941-8c43-3de323d40a9e", pageId: "208eb23a-3f83-4e7e-a890-87d5de254af7", themeId: "a42ec23f-59f2-41b5-bf35-a99b8ccd0663", blocks: Array(0), elements: Array(0)}
 createdAt: "2018-04-17T14:48:29.000Z"
@@ -122,23 +122,23 @@ titleTag: ""
 type: "category"
 updatedAt: "2018-04-17T14:48:29.000Z"
 url: "/jam"
-´´´
+```
 
 ### Cart:add event
 
 In order to make use of this event, you need to add the following snippet to your code:
 
-´´´ {.javascript}
+``` {.javascript}
 if (window.eComEventTarget) {
   window.eComEventTarget.addEventListener('cart:add', function (event) {
     console.log('new cart data:', event.detail.cart)
   })
 }
-´´´
+```
 
 You'll receive something like this:
 
-´´´ {.bash}
+``` {.bash}
 billingAddress: null
 canHaveCoupon: true
 cartId: "5C06901F-150C-3D9B-B144-D509AB34875"
@@ -162,4 +162,4 @@ taxType: "NET"
 taxes: []
 totalNumberOfItems: 3
 _links: null
-´´´
+```
