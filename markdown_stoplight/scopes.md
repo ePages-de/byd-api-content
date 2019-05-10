@@ -28,7 +28,7 @@ Here's the list of the scopes we provide and what they're used for.
 | `lcnt:u`                          | Update legal content              |
 | `legl:r`                          | Show legal details                |
 | `legl:u`                          | Update legal resource partially (json patch), Update legal resource partially (json)   |
-| `nltg:m`                          | Update newsletter target          |
+| `nltg:m`                          | Create newsletter target, Update newsletter target, Delete newsletter target |
 | `orde:r`                          | List order events                 |
 | `ordn:r`                          | Show order number configuration details   |
 | `ordn:u`                          | Update complete order number configuration, Update order number configuration partially      |
