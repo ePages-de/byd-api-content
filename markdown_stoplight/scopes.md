@@ -28,6 +28,7 @@ Here's the list of the scopes we provide and what they're used for.
 | `lcnt:u`                          | Update legal content              |
 | `legl:r`                          | Show legal details                |
 | `legl:u`                          | Update legal resource partially (json patch), Update legal resource partially (json)   |
+| `nltg:m`                          | Create newsletter target, Update newsletter target, Delete newsletter target |
 | `orde:r`                          | List order events                 |
 | `ordn:r`                          | Show order number configuration details   |
 | `ordn:u`                          | Update complete order number configuration, Update order number configuration partially      |
@@ -39,6 +40,10 @@ Here's the list of the scopes we provide and what they're used for.
 | `prad:r`                          | List product attribute definitions, Show product attribute definition details, Find existing attribute definitions by namespace and name, Find existing attribute definitions by namespace and query |
 | `prad:u`                          | Update product attribute definition  |
 | `prad:d`                          | Delete product attribute definition  |
+| `prat:c`                          | Create product attribute             |
+| `prat:r`                          | Retrieve product attribute, Retrieve all product attributes for product   |
+| `prat:u`                          | Update product attribute             |
+| `prat:d`                          | Delete product attribute               |
 | `prda:r`                          | Show product availability details |
 | `prda:u`                          | Enable stock management, Disable stock management, Adjust stock level, Update reserve stock, Enable purchasability, Disable purchasability |
 | `prod:c`                          | Create product                    |
@@ -58,6 +63,7 @@ Here's the list of the scopes we provide and what they're used for.
 | `rtpr:c`                          | Create return processes           
 | `rtpr:r`                          | List return processes, Show return process details        |
 | `scop:r`                          | List all scopes                   |
+| `sctg:m`                          | Create script tag, Update script tag, Delete script tag   |
 | `shad:r`                          | Show address details              |
 | `shad:u`                          | Update address partially (json patch), Update address with tenant context (json)    |
 | `shat:c`                          | Create shop attribute             |
@@ -68,7 +74,6 @@ Here's the list of the scopes we provide and what they're used for.
 | `shim:c`                          | Create shop image                 |
 | `shim:r`                          | List shop images, Show shop image details, Find shop images by label |
 | `shim:d`                          | Delete shop image                 |
-| `shop:r`                          | List shops, Show shop details, Show reduced view of shop details, Show shop features    |
 | `shop:u`                          | Update shop, Update shop partially (json patch)         |
 | `shpr:c`                          | Create shipping processes         |
 | `shpr:r`                          | List shipping processes, Show shipping process details       |
