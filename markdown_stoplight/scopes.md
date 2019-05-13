@@ -74,7 +74,6 @@ Here's the list of the scopes we provide and what they're used for.
 | `shim:c`                          | Create shop image                 |
 | `shim:r`                          | List shop images, Show shop image details, Find shop images by label |
 | `shim:d`                          | Delete shop image                 |
-| `shop:r`                          | List shops, Show shop details, Show reduced view of shop details, Show shop features    |
 | `shop:u`                          | Update shop, Update shop partially (json patch)         |
 | `shpr:c`                          | Create shipping processes         |
 | `shpr:r`                          | List shipping processes, Show shipping process details       |
