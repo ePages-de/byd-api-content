@@ -31,7 +31,7 @@ that page.
 
 To authenticate with the Beyond API, simply
 [Create a JSON Web Token with a refresh token](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/oauth/oauth2-token-refresh). Send a `POST` request to the token
-endpoint with the `grant_type` parameter. Pass `client_id` and
+endpoint with the `grant_type` parameter using the value *client_credentials*. Pass `client_id` and
 `client_secret` (that you've received when generating your credentials
 in the beyondshop) as Basic Auth header.
 
