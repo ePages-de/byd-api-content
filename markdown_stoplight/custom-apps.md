@@ -13,12 +13,12 @@ want to connect with your app.
 
 To generate the required credentials:
 
-1.  From your beyondshop cockpit, select **Custom apps**.
+1.  From your beyondshop cockpit, select **Custom apps** in the sidebar.
 
-2.  Select **Create custom app**.
+2.  Select **Add custom app**.
 
 3.  Enter your app name, and select the scopes that outline the
-    permissions, and access required by your app.
+    permissions and access required by your app.
 
 4.  Select **Save**.
 
@@ -30,8 +30,8 @@ that page.
 **2. Authenticate**
 
 To authenticate with the Beyond API, simply
-[Create a JsonWebToken from Client Credentials](#resources-tokens-client). Send a `POST` request to the token
-endpoint with the `grant_type` parameter. Pass `client_id` and
+[Create a JSON Web Token with a refresh token](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/oauth/oauth2-token-refresh). Send a `POST` request to the token
+endpoint with the `grant_type` parameter using the value *client_credentials*. Pass `client_id` and
 `client_secret` (that you've received when generating your credentials
 in the beyondshop) as Basic Auth header.
 
