@@ -17,14 +17,6 @@ Here's the list of the scopes we provide and what they're used for.
 | `clpr:r`                          | List cancelation processes, Show cancelation process details |
 | `cset:r`                          | List checkout settings |
 | `cset:u`                          | Update checkout settings |
-| `gsad:c`                          | Create access data (Google Shopping) |
-| `gsad:r`                          | List access data, Show access data details (Google Shopping) |
-| `gsad:u`                          | Update access data, Update access data partially (json patch) (Google Shopping) |
-| `gsad:d`                          | Delete access data (Google Shopping)  |
-| `gspr:c`                          | Create product (Google Shopping)  |
-| `gspr:r`                          | List products, Show product details (Google Shopping) |
-| `gspr:u`                          | Update product, Publish list of products, Unpublish individual product (Google Shopping)  |
-| `gspr:d`                          | Delete product (Google Shopping)  |
 | `lcnt:u`                          | Update legal content              |
 | `legl:r`                          | Show legal details                |
 | `legl:u`                          | Update legal resource partially (json patch), Update legal resource partially (json)   |
