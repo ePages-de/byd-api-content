@@ -1,4 +1,4 @@
-#### Scopes
+### Scopes
 
 If you want to create an app for a beyondshop you need access to our
 merchant's data. By setting OAuth scopes you specify exactly which
@@ -33,7 +33,7 @@ Here's the list of the scopes we provide and what they're used for.
 | `prad:r`                          | [List product attribute definitions](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-attribute-definitions/product-attribute-definitions-list), [Show product attribute definition details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-attribute-definitions/product-attribute-definition-get) |
 | `prad:d`                          | [Delete product attribute definition](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/product-attribute-definitions/product-attribute-definitions-delete)  |
 | `prat:c`                          | Create product attribute, [Create product attribute of type NUMBER](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attribute-create-number-with-name)             |
-| `prat:r`                          | Show product attribute details, [List product attributes for a product](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attributes-list), [Show product attribute of type NUMBER](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attribute-get-number)   |
+| `prat:r`                          | [List product attributes for a product](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attributes-list), [Show product attribute details of type NUMBER](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attribute-get-number)   |
 | `prat:u`                          | [Update product attribute](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attribute-update)             |
 | `prat:d`                          | [Delete product attribute](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-attribute-delete)               |
 | `prda:r`                          | [Show variation availability details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-get) |
