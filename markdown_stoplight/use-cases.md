@@ -3,7 +3,7 @@ You plan an integration with ePages?
 That’s great!
 Here are some use cases we can think of:
 
-### Integrate a Payment Solution
+### Payment solution
 
 Enable merchants to offer more payment options by integrating your own payment solution.
 Create your own payment method so that merchants can later activate it for their shops.
@@ -11,7 +11,7 @@ This way, a merchant's customers will find a more diverse set of possibilities t
 
 For detailed instructions, see our [Integrate a payment solution tutorial](http://docs.beyondshop.cloud/#_integrate_a_payment_solution).
 
-### Social Commerce
+### Social commerce
 
 Enable merchants to use social media platforms like Facebook or blogging platforms to showcase their products.
 Put together a custom catalog and redirect customers directly to a shop.
@@ -58,7 +58,7 @@ A few of the endpoints to achieve this:
 |`GET`|[/orders/{orderId}/processes](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-order-processes)
 |`GET`|[/orders/{orderId}/order-note](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-note-update)
 
-### Content Optimization and Marketing
+### Content optimization and marketing
 
 Enable merchants to give their product descriptions and collections a SEO check, automate parts of the marketing, or help them with translation.
 Improve product names and descriptions and immediately update a shop.
@@ -76,7 +76,7 @@ A few of the endpoints to achieve this:
 |`POST`|[/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-create)
 |`PUT`|[/categories/{categoryId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-put)
 
-### Legal Service
+### Legal service
 
 Enable automatic updates and notifications to everything relating to legal content.
 Retrieve the legal content that merchants display to their customers, give it a check and, if you have the merchant's consent, write an improved version of the texts back to the shop.
@@ -90,7 +90,7 @@ A few of the endpoints to achieve this:
 |`GET`|[/legal-content](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-list)
 |`PUT`|[/legal-content/{name}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-edit)
 
-### Point of Sale (POS)/Marketplace
+### Point of sale (POS)/marketplace
 
 Enable automatic stock level tracking and easy stock management for merchants.
 Retrieve the products a shop offers at regular intervals to keep an up-to-date list.
@@ -108,7 +108,7 @@ A few of the endpoints to achieve this:
 |`PATCH`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-patch-json) 
 |`POST`|[/products/{productId}/availability/adjust-available-stock](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-availability-adjust-available-stock)
 
-### Sales Analytics
+### Sales analytics
 
 Enable custom analytics that give merchants the full picture of how well certain parts of their shop are performing.
 Aggregate information from orders on products to generate bestseller lists, generate graphs of a shop's performance through time or use postal codes to see what regions a shop is most popular in.
@@ -122,7 +122,7 @@ A few of the endpoints to achieve this:
 |`GET`|[/orders](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
 |`GET`|[/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
 
-### Image Service
+### Image service
 
 Enable immediate editing of product images, or link a shop up with image sites.
 You can offer filtering capabilities and put the edited pictures back into the shop, offer insertion of new images from the app, or create whole slideshows and collages from the available product images.
