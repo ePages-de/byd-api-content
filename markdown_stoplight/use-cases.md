@@ -15,12 +15,12 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET` |[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
-|`GET`| [/categories](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
-|`POST` |[/carts](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create)
-|`PUT` |[/carts/{cartId}/line-items/{lineItemId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-replace-line-item)
-|`POST` |[/carts/{cartId}/order](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order)
-|`GET`|[/legal-content](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-list) 
+|`GET` |[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
+|`GET`| [/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
+|`POST` |[/carts](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-create)
+|`PUT` |[/carts/{cartId}/line-items/{lineItemId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-replace-line-item)
+|`POST` |[/carts/{cartId}/order](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/carts/cart-order)
+|`GET`|[/legal-content](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-list) 
 
 ### Shipping
 
@@ -30,10 +30,10 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/orders](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
-|`GET`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
-|`GET`|[/order/{orderId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-get)
-|`GET`|[/orders/{orderId}/processes/shippings](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-shipping-processes) |`GET`|[/orders/{orderId}/processes/shippings/{shippingProcessId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-shipping-process)
+|`GET`|[/orders](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
+|`GET`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
+|`GET`|[/order/{orderId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-get)
+|`GET`|[/orders/{orderId}/processes/shippings](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-shipping-processes) |`GET`|[/orders/{orderId}/processes/shippings/{shippingProcessId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-shipping-process)
 
 ### Accounting
 
@@ -43,10 +43,10 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/orders](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list) 
-|`GET`|[/order/{orderId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-get)
-|`GET`|[/orders/{orderId}/processes](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-order-processes)
-|`GET`|[/orders/{orderId}/order-note](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-note-update)
+|`GET`|[/orders](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list) 
+|`GET`|[/order/{orderId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-get)
+|`GET`|[/orders/{orderId}/processes](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/get-order-processes)
+|`GET`|[/orders/{orderId}/order-note](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/order-note-update)
 
 ### Content Optimization and Marketing
 
@@ -56,12 +56,12 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
-|`PATCH`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-patch-json)
-|`GET`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
-|`GET`|[/categories](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
-|`POST`|[/categories](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-create)
-|`PUT`|[/categories/{categoryId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-put)
+|`GET`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
+|`PATCH`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-patch-json)
+|`GET`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
+|`GET`|[/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
+|`POST`|[/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-create)
+|`PUT`|[/categories/{categoryId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/category-put)
 
 ### Legal Service
 
@@ -71,8 +71,8 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/legal-content](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-list)
-|`PUT`|[/legal-content/{name}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-edit)
+|`GET`|[/legal-content](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-list)
+|`PUT`|[/legal-content/{name}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/legal-content/merchant-legal-content-edit)
 
 ### Point of Sale (POS)/Marketplace
 
@@ -82,11 +82,11 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
-|`GET`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
-|`GET`|[/products/{productId}/availability](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-availability-get)
-|`PATCH`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-patch-json) 
-|`POST`|[/products/{productId}/availability/adjust-available-stock](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-availability-adjust-available-stock)
+|`GET`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
+|`GET`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
+|`GET`|[/products/{productId}/availability](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-availability-get)
+|`PATCH`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-patch-json) 
+|`POST`|[/products/{productId}/availability/adjust-available-stock](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-availability-adjust-available-stock)
 
 ### Sales Analytics
 
@@ -96,9 +96,9 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list) 
-|`GET`|[/orders](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
-|`GET`|[/categories](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
+|`GET`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list) 
+|`GET`|[/orders](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
+|`GET`|[/categories](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/categories/categories-list)
 
 ### Image Service
 
@@ -108,10 +108,10 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list) 
-|`GET`|[/product/{productId}/images](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-list)
-|`POST`|[/products/{productId}/images](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create)
-|`DELETE`|[/products/{productId}/images/{imageId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-image-delete) 
+|`GET`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list) 
+|`GET`|[/product/{productId}/images](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-list)
+|`POST`|[/products/{productId}/images](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-images-create)
+|`DELETE`|[/products/{productId}/images/{imageId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-image-delete) 
 
 ### Enterprise Management Systems (EMS)
 
@@ -121,8 +121,8 @@ A few of the endpoints to achieve this:
 
 | HTTP Verb | Endpoint
 |---|---
-|`GET`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
-|`GET`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
-|`POST`|[/products](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/products-create) 
-|`DELETE`|[/products/{productId}](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/products/product-delete)
-|`GET`|[/orders](https://beyond-rest-api.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
+|`GET`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-list)
+|`GET`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-get)
+|`POST`|[/products](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/products-create) 
+|`DELETE`|[/products/{productId}](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/product-delete)
+|`GET`|[/orders](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/orders-list)
