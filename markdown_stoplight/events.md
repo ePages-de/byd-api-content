@@ -49,7 +49,7 @@ You’ll receive something like this:
 availabilityText: "Available"
 available: true
 basePrice: {refQuantity: {…}, refPrice: {…}, formatted: "1 m³ = £0,12", quantity: {…}}
-conditionMicrodata: "ConditionNew"
+conditionMicrodata: "NewCondition"
 customAttributes: null
 deliveryPeriod: "2-3"
 deliveryPeriodUnit: "DAYS"
@@ -65,7 +65,7 @@ image: null
 isVariationMaster: false
 isVariationProduct: false
 isVisible: true
-links: (2) [{…}, {…}]
+links: [{…}, {…}]
 lowestPrice: null
 mainCategoryId: "5954B711-E377-2A90-C400-D5809AB3F62B"
 manufacturer: null
@@ -82,7 +82,7 @@ productVariationValues: null
 sku: "1007"
 slideshow: [{…}, {…}, {…}, {…}]
 slug: "homemade-cherry-jam"
-stockLevelClass: "little"
+stockLevelClass: "in"
 stockLevelMicrodata: "InStock"
 title: "Homemade Cherry Jam"
 variationMaster: null
