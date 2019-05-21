@@ -7,7 +7,7 @@ Here are some use cases we can think of:
 
 Enable merchants to offer more payment options by integrating your own payment solution.
 Create your own payment method so that merchants can later activate it for their shops.
-This way, a merchant's customers will find a more diverse set of possibilities to pay for their purchase.</br>
+This way, a merchant's customer will find a more diverse set of possibilities to pay for their purchase.</br>
 
 For detailed instructions, see our [Integrate a payment solution tutorial](http://docs.beyondshop.cloud/#_integrate_a_payment_solution).
 
