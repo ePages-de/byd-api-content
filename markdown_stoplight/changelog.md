@@ -10,17 +10,15 @@ This change log covers significant updates and changes to the Beyond REST API.
 
 * [Disable purchasability for variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-disable-purchasability)
 
-* [Show variation availability details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-get).
+* [Show variation availability details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-get)
 
-* [Adjust stock level of variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-adjust-available-stock).
+* [Adjust stock level of variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-adjust-available-stock)
+
+* [Upload shop image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-image-upload)
 
 **Update**
 
-* Added `sendMail` property to [Create return process](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/create-return-process).
-
-* Added `fileName` and `label` properties to [Upload shop image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-image-upload).
-
-* Adde header `Content-Type` to request parameters of [Upload shop image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-image-upload).
+* Added `sendMail` property to [Create return process](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/create-return-process). Is `false` by default if not set in the request.
 
 **Deprecate**
 
