@@ -2,6 +2,38 @@
 
 This change log covers significant updates and changes to the Beyond REST API.
 
+**2019-05-22**
+
+**New**
+
+* [Enable purchasability for variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-enable-purchasability)
+
+* [Disable purchasability for variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-disable-purchasability)
+
+* [Show variation availability details](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-get)
+
+* [Adjust stock level of variation](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/products/variation-availability-adjust-available-stock)
+
+* [Upload shop image](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/shop/merchant-image-upload)
+
+**Update**
+
+* Added `sendMail` property to [Create return process](https://beyond.docs.stoplight.io/beyond-rest-api/api-reference/orders/create-return-process). Is `false` by default if not set in the request.
+
+**Deprecate**
+
+* *Show invoice number configuration details* (`GET /configuration/invoice-number`)
+
+* *Modify complete invoice number configuration* (`PUT /configuration/invoice-number`)
+
+* *Update invoice number configuration partially (JSON)* (`PATCH /configuration/invoice-number`)
+
+* *Show order number configuration details* (`GET /configuration/order-number`)
+
+* *Modify complete order number configuration* (`PUT /configuration/order-number`)
+
+* *Update order number configuration partially (JSON)* (`PATCH /configuration/order-number`)
+
 **2019-05-09**
 
 **Update**
@@ -46,7 +78,7 @@ Added [Events](https://beyond.docs.stoplight.io/app-development/events) section.
 
 **Deprecate**
 
-* Removed endpoint *List products by category* (`GET /product-view/products/search/find-by-category`).
+* *List products by category* (`GET /product-view/products/search/find-by-category`)
 
 **2019-03-06**
 
